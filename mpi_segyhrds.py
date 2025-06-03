@@ -5,7 +5,7 @@ This script extracts multiple header fields from a SEGY file in parallel using M
 Each MPI process handles a portion of the file, improving performance for large files.
 
 Usage:
-    mpiexec -np N python mpi_v5.py <segy_file> [header_bites...]
+    mpiexec -np N python mpi_segyhdrs.py <segy_file> [header_bites...]
 
 Example:
     mpiexec -np 12 python mpi_v5.py data.segy 181 185 189 193
