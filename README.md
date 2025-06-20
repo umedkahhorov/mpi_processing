@@ -18,3 +18,6 @@ The examples in this repository use the following open seismic datasets:
 
 - **Volve field data set**
   Source: [https://www.equinor.com/energy/volve-data-sharing]
+
+## Use
+
