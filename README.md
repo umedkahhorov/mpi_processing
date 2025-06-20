@@ -2,7 +2,7 @@
 
 ## Description
 
-We develop parallel computation examples for seismic data processing. Many seismic operations are naturally data-parallel, allowing independent processing of different traces, shot gathers, frequency slices, and more. This enables scalable, high-performance workflows using distributed computing tools.
+We develop parallel computation examples for seismic data processing. Many seismic operations are naturally data-parallel, allowing independent processing of different traces, gathers, slices and more. This enables scalable, high-performance workflows using distributed computing tools.
 
 As we primarily use Python, our approach focuses on Python-compatible parallel processing tools. The two main frameworks used are MPI (Message Passing Interface), a widely adopted standard for distributed computing, and Dask, a modern library for parallel and scalable workflows in Python.
 
